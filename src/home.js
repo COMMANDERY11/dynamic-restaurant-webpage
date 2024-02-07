@@ -12,4 +12,4 @@ function homeStyle() {
    heroHeader.appendChild(heroSlogan);
 }
 
-export { homeStyle };
+export default { homeStyle };

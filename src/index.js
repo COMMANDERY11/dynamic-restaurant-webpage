@@ -1,11 +1,11 @@
 import './style.scss';
+import { homeStyle } from "./home.js";
 
 const content = querySelector("#content");
 let currentTab = 0;
 
 switch (currentTab) {
    case 0:
-      import { homeStyle } from "./home.js";
       break;
 
    case 1:
