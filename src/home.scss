@@ -1,0 +1,24 @@
+#heroContainer {
+   background: url('./Assets/grapeshero.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 10px;
+   height: 800px;
+}
+
+#heroHeader {
+   color: white;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   font-size: 4.5rem;
+}
+
+#heroSlogan {
+   color: white;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   font-size: 3rem;
+}

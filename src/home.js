@@ -1,15 +1,21 @@
 function homeStyle() {
-   const heroContainer = createElement("div");
-   heroContainer.id = "heroContainer";
-   content.appendChild(heroContainer);
+   const currentTabDiv = document.createElement("div");
+   currentTabDiv.id = "currentTabDiv";
+   content.appendChild(currentTabDiv);
 
-   const heroHeader = createElement("h1");
+   const heroContainer = document.createElement("div");
+   heroContainer.id = "heroContainer";
+   currentTabDiv.appendChild(heroContainer);
+
+   const heroHeader = document.createElement("h1");
    heroHeader.id = "heroHeader";
    heroContainer.appendChild(heroHeader);
+   heroHeader.textContent = "Grape Website";
 
-   const heroSlogan = createElement("h2");
+   const heroSlogan = document.createElement("h2");
    heroSlogan.id = "heroSlogan";
-   heroHeader.appendChild(heroSlogan);
+   heroContainer.appendChild(heroSlogan);
+   heroSlogan.textContent = "Our Grapes are the Best";
 }
 
-export default { homeStyle };
+export default homeStyle;

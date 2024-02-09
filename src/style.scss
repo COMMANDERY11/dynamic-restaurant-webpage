@@ -41,7 +41,11 @@ button {
    /*font-size: clamp(1.5rem, 3vw, 2.5rem);*/
 }
 
-div {
+button:hover {
+   cursor: pointer;
+}
+
+#content {
    background-color: #e5d2fa;
    width: 100%;
 }
